@@ -1,0 +1,41 @@
+
+/*  rules for testing*/
+
+.contact-table {
+    background-color: red;
+}
+
+article {
+    background-color: blue;
+}
+
+/*  end rules for testing*/
+
+
+
+
+
+.saira-p-text {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.raleway-p-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.contact-table th {
+    border:1px solid;
+}
+
+.contact-table td {
+    border:1px solid;
+}
+
