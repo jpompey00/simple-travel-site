@@ -2,40 +2,107 @@
 /*  rules for testing*/
 
 .contact-table {
-    background-color: red;
+    
 }
 
 article {
-    background-color: blue;
+    
 }
 
+nav{
+    
+}
+
+
+.title{
+
+}
+body{
+    background-color: rgb(17, 31, 66);
+}
 /*  end rules for testing*/
 
 
 
-
-
-.saira-p-text {
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100px;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.nav-bar ul{
+    
+    background-color: rgb(11, 21, 47);
+    padding: 25px 10px 25px 25px;
+    list-style-type: none;
+    height: 20px;
+    margin-top: 0px;
+  
+    
 }
+.nav-bar li{
+    float: left;
+    margin: 1px;
+    padding-right: 20px;
+    border-right: 15px;
+}
+
+.nav-bar li a {
+    color: white;
+    padding: 25px;
+    text-align: center;
+        
+}
+.nav-bar li a:hover{
+    background-color:rgb(18, 35, 77)
+}
+
+
+.contact-table * {
+    border: 1px solid;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin:0px;
+    padding: 20px;
+
+    background-image: url("../images/firebackground.png");
+    background-position: bottom;
+}
+
+
+
+
+
+/*Font Styling*/
+.saira-table-text {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color:white
+  }
+  
 
 .raleway-p-text {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100px;
   font-style: normal;
+  color:white
 }
 
-.contact-table th {
-    border:1px solid;
-}
+.raleway-title-text {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    color:white
+  }
+  
 
-.contact-table td {
-    border:1px solid;
-}
-
+  .raleway-navigation-text {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color:white
+  }
